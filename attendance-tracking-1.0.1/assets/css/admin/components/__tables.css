@@ -1,0 +1,32 @@
+/* Estilos para tablas administrativas */
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.attendance-table th,
+.attendance-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.attendance-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.attendance-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Responsive tables */
+@media screen and (max-width: 782px) {
+    .attendance-table {
+        display: block;
+        overflow-x: auto;
+    }
+}

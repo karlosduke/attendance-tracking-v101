@@ -1,0 +1,16 @@
+/* Estilos específicos para la página de centros */
+.attendance-admin .centers-list {
+    margin-top: 20px;
+}
+
+.column-id {
+    width: 10%;
+}
+
+.column-centro {
+    width: 60%;
+}
+
+.column-actions {
+    width: 30%;
+}

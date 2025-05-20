@@ -1,0 +1,28 @@
+/* Import de componentes */
+@import url('components/_form.css');
+@import url('components/_signature-pad.css');
+@import url('components/_buttons.css');
+@import url('components/_messages.css');
+
+/* Estilos generales del frontend */
+.attendance-form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    .attendance-form-container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
